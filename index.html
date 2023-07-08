@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="https://formspree.io/f/mwkdkoyk" method="post">
+        <h2>Get In Touch</h2>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Your Name"
+          required
+        />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your Email Id"
+          required
+        />
+        <input type="text" id="phone" name="phone" placeholder="Phone No." />
+        <textarea
+          id="message"
+          rows="4"
+          placeholder="How can we help You?"
+          name="message"
+        ></textarea>
+        <button>Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
